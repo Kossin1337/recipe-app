@@ -1,0 +1,55 @@
+.navigation {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    h1 {
+      font-family: "Hubballi", sans-serif;
+      font-size: 2rem;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .nav-menu-wrapper {
+    display: flex;
+    align-items: center;
+
+    .nav-menu {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+
+      .menu-item {
+        cursor: pointer;
+        margin-right: 1rem;
+
+        &:hover {
+          color: blueviolet;
+        }
+      }
+    }
+
+    .nav-buttons {
+      .login-btn {
+        cursor: pointer;
+        font-family: "Hubballi", sans-serif;
+        font-size: 1.1rem;
+        padding: 0.5rem 0.75rem;
+        outline: none;
+        border: none;
+        border-radius: 15px;
+        background-color: #434343;
+        color: lime;
+        transition: 0.15s ease-in;
+
+        &:hover {
+          background-color: lime;
+          color: #000;
+        }
+      }
+    }
+  }
+}
